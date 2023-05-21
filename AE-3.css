@@ -1,0 +1,143 @@
+body{
+    margin: 0 auto;
+    padding: 10px;
+    background-size: contain;
+}
+
+body h1{
+    text-align: center;
+}
+
+.informacion{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 211, 211);
+}
+
+a:hover{
+    color: rgb(41, 114, 114);
+}
+
+header{
+    background-color: rgb(196, 235, 235);
+    background-size: auto;
+    width: 100%;
+    text-align: center;
+}
+
+header .nombre{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    
+}
+
+header .logo{
+    margin-top: 10px;
+    height: 40px;
+    align-items: left;
+}
+
+section{
+    margin-top: 100px;
+    display: flex;
+}
+
+.centrado{
+    text-align: center;
+}
+
+
+section .carta1{
+    position: absolute;
+    right: 20px;
+    width: 430px;
+    height: 200px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+section .carta1 table{
+    height: auto;
+    margin: 20 auto;
+    text-align: center;
+    width: 150px; 
+    border:ridge;
+}
+
+section .carta1 h2{
+    background-color: rgb(232, 229, 229);
+}
+
+section .carta2{
+    width: 430px;
+    align-items: center;
+    height: 280px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+section .carta2 table{
+    width: 400px;
+    height: auto;
+    margin: 20 auto;
+    text-align: center;
+    border:ridge;
+    
+}
+
+section .carta2 h2{
+    background-color: rgb(232, 229, 229);
+}
+
+section .carta2 table td{
+    height: 50px;
+}
+
+section .carta3{
+    position: absolute;
+    left: 20px;
+    width: 430px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+section .carta3 table{
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin: 20 auto;
+    text-align: center;
+    border:ridge;
+}
+
+section .carta3 h2{
+    background-color: rgb(232, 229, 229);
+}
+
+section .carta3 table td{
+    height: 50px;
+}
+
+.formulario{
+    text-align: center;
+    width: 700px;
+    margin: 100px auto;
+    background-color: rgb(196, 235, 235);
+}
+
+.separador{
+    background-color: black;
+    width: 100%;
+    height: 10px;
+    margin-top: 100px;
+}

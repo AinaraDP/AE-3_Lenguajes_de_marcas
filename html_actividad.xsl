@@ -4,7 +4,7 @@
     <html>
         <head>
             <title>Instituto tecnológico Edix</title>
-            <link rel="stylesheet" href="AE-3.css"/>
+            <link rel="stylesheet" href="css/AE-3.css"/>
         </head>
         <body>
 
